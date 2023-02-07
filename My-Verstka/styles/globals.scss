@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+* {
+	padding: 0px;
+	margin: 0px;
+	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	text-decoration: underline;
+}
+
+body {
+	color: white;
+	height: 350vh;
+}
+
+header .left, header .right {
+	display: flex;
+	align-items: center;
+	gap: 100px;
+	.text-white{
+		background: linear-gradient(40deg, rgb(56, 56, 255),	 rgb(56, 142, 255));
+		color: white;
+		border: none;
+		width: 90px;
+		height: 40px;
+		border-radius: 20px;
+		cursor: pointer;
+	}
+	.text-white:hover{
+		background: linear-gradient(-40deg, rgb(56, 56, 255), rgb(56, 142, 255));
+
+	}
+  }
+  header{
+	background-color: #252525;
+  }
+
+main{
+	height: 90vh;
+	background-color: #252525;
+	.hi{
+		font-weight: 600;
+		font-size: 48px;
+		line-height: 54px;
+	}
+	.nameM{
+		font-weight: 700;
+		font-size: 72px;
+		line-height: 82px;
+	}
+	.inMain{
+		display: flex;
+		justify-content: space-between;
+		.txt{
+			margin-top: 100px;
+			margin-left: 180px;
+		}
+	}
+}
+.mainVtwo{
+	background-color: #363636;
+	height: 170vh;
+	.aboutMe{
+		width: 400px;
+		height: 600px;
+		position: relative;
+		left: 690px;
+		bottom: 500px;
+		background: #2C2C2C;
+		border-radius: 14px;
+		.txt_me{
+			position: relative;
+			left: 60px;
+			bottom: 30px;
+		}
+		.txt_about{
+			display: flex;
+			align-items: center;
+			letter-spacing: 0.01em;
+			width: 90%;
+			margin-left: 5%;
+			position: relative;
+			bottom: 30px;
+		}
+	}
+	.roundOne{
+		width: 30%;
+		margin-left: 250px;
+		margin-top: 50px;
+	}
+	.roundTwo{
+		position: relative;
+		width: 15%;
+		top: 250px;
+		right: 100px;
+	}
+	.roundThree{
+		width: 20%;
+		position: relative;
+		top: 100px;
+		right: 50px;
+	}
+	.skills{
+		width: 50%;
+		margin: 50px 25%;
+	}
+	.about{
+		height: 100vh;
+	}
+}
+.mainThree{
+	background-color: #252525;
+	height: 100vh;
+	padding-top: 30px;
+	.porto{
+		font-weight: 400;
+		font-size: 48px;
+		line-height: 54px;
+		margin-left: 43%;
+	}
+	.portfolio{
+		width: 900px;
+		height: 500px;
+		margin-left: 400px;
+		margin-top: 50px;
+		background: linear-gradient(130.68deg, #414141 0%, #2D2D2D 100.52%);
+		box-shadow: 0px 4px 15px rgba(27, 27, 27, 0.28);
+		border-radius: 29px;
+		display: flex;
+		.txt_portfolio_t{
+			h1{
+				margin-top: 35px;
+				margin-left: 80px;
+			}
+		}
+		.portImg{
+			width: 400px;
+			margin: 40px;
+		}
+	}
+}
+.loginDiv{
+	background-color: #252525;
+	height: 100vh;
+	padding-top: 40px;
+	form{
+		background-color: #363636;
+		border-radius: 10px;
+
+		width: 500px;
+		height: 270px;
+		margin-left: 35%;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-between;
+		input{
+			width: 300px;
+			height: 40px;
+			padding: 10px;
+			border: none;
+			border-radius: 10px;
+			outline: none;
+		}
+		button{
+			height: 40px;
+			width: 100px;
+			border: none;
+			border-radius: 10px;
+			background: linear-gradient(45deg, blue, rgb(89, 89, 255));
+			color: white;
+			cursor: pointer;
+			margin-bottom: 10px;
+		}
+		button:hover{
+			background: linear-gradient(-45deg, blue, rgb(89, 89, 255));
+		}
+	}
+}

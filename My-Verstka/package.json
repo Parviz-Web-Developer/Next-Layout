@@ -1,0 +1,32 @@
+{
+  "name": "authfornext",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@chakra-ui/react": "^2.4.9",
+    "@emotion/react": "^11.10.5",
+    "flowbite": "^1.6.3",
+    "flowbite-react": "^0.3.8",
+    "js-cookie": "^3.0.1",
+    "lottie-react": "^2.3.1",
+    "next": "13.1.5",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-hook-form": "^7.42.1",
+    "react-toastify": "^9.1.1",
+    "sass": "^1.57.1"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "eslint": "8.32.0",
+    "eslint-config-next": "13.1.5",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.4"
+  }
+}
